@@ -5,7 +5,8 @@ styles: [
   '/assets/styles/app.css']
 
 scripts: [
-  '/assets/scripts/jquery.js']
+  '/assets/scripts/jquery.js',
+  '/assets/scripts/velocity.js']
 
 ---
 
