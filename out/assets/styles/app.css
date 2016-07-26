@@ -11,3 +11,21 @@ body,
   top: 0;
   left: 0;
 }
+
+.slider {
+  position: fixed;
+  background: white;
+  bottom: 25px;
+  right: 25px;
+  height: 35px;
+  z-index: 100;
+}
+.slider label,
+.slider input {
+  line-height: 35px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.slider input {
+  width: 100px;
+}
