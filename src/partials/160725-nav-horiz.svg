@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prologis Nav Scheme</title>
-    <link rel="stylesheet" href="/assets/styles/normalize.css" media="all" />
-    <link rel="stylesheet" href="/assets/styles/app.css" media="all" />
-  </head>
-  <body>
-<div class="map">
-  <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -2650,10 +2639,3 @@
        id="path7259" />
   </g>
 </svg>
-
-</div>
-    <script src="/assets/scripts/jquery.js" defer="defer"></script>
-    <script src="/assets/scripts/velocity.js" defer="defer"></script>
-    <script src="/assets/scripts/app.js" defer="defer"></script>
-  </body>
-</html>
