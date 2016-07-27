@@ -18,4 +18,14 @@ go = (url)->
   #window.location.href = url
   window.open(url)
 
+#=======
+
 activate(window.CONFIG) 
+
+$('#labelMock').click ->
+  $('#slider')[0].value = 1
+$('#labelMap').click ->
+  $('#slider')[0].value = 0
+
+$('#slider').change ->
+  $('#map').css('opacity', 1-@value)

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/assets/styles/app.css" media="all" />
   </head>
   <body>
-<div class="map">
+<div id="map" class="map">
   <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -2654,9 +2654,9 @@
 </div>
 <div class="bar">
   <div class="slider">
-    <label>Map</label>
-    <input id="slider" type="range" min="0" max="100" step="1" />
-    <label>Mock</label>
+    <label id="labelMap">Map</label>
+    <input id="slider" type="range" min="0" max="1" step="0.01" />
+    <label id="labelMock">Mock</label>
   </div>
 </div>
     <script src="/assets/scripts/jquery.js" defer="defer"></script>

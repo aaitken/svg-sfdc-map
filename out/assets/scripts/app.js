@@ -40,4 +40,16 @@
 
   activate(window.CONFIG);
 
+  $('#labelMock').click(function() {
+    return $('#slider')[0].value = 1;
+  });
+
+  $('#labelMap').click(function() {
+    return $('#slider')[0].value = 0;
+  });
+
+  $('#slider').change(function() {
+    return $('#map').css('opacity', 1 - this.value);
+  });
+
 }).call(this);
