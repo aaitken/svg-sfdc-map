@@ -49,6 +49,7 @@
   });
 
   $('#slider').change(function() {
+    $('#mocks').css('opacity', this.value);
     return $('#map').css('opacity', 1 - this.value);
   });
 

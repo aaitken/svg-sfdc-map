@@ -26,4 +26,5 @@ $('#labelMap').click ->
   $('#slider')[0].value = 0
 
 $('#slider').change ->
+  $('#mocks').css('opacity', @value)
   $('#map').css('opacity', 1-@value)
